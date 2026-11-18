@@ -1,0 +1,10 @@
+[
+{"capability":"code","source":"React+Vite client, Express server","outcome":"migrate to TanStack Start","status":"in_progress","next_action":"port screens"},
+{"capability":"schema","source":"Postgres users/sessions/user_preferences/record_store","outcome":"migrate to Lovable Cloud","status":"in_progress","next_action":"migration"},
+{"capability":"records","source":"backups/*.dump (pg custom format, cannot be filtered)","outcome":"migrate","status":"pending","next_action":"request per-table CSV/JSON export"},
+{"capability":"auth identities","source":"users table with password hashes","outcome":"migrate to Lovable auth; verify email + new password","status":"pending","next_action":"request users export"},
+{"capability":"authorization","source":"owner/manager roles, per-owner records","outcome":"user_roles + RLS","status":"in_progress","next_action":""},
+{"capability":"offline sync","source":"/api/sync push/pull","outcome":"Cloud RPC + RLS","status":"in_progress","next_action":""},
+{"capability":"mobile","source":"user request (Expo)","outcome":"installable web app (user chose)","status":"in_progress","next_action":"manifest"},
+{"capability":"external providers/webhooks/schedules/storage","source":"none found","outcome":"n/a","status":"verified","next_action":""}
+]
