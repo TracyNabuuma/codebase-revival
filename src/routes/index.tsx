@@ -6,10 +6,10 @@ import { AppLayout } from "@/components/app/AppLayout";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Farm overview · KukuThrive" },
-      { name: "description", content: "Today"s eggs, birds, money and alerts across your poultry farm." },
-      { property: "og:title", content: "Farm overview · KukuThrive" },
-      { property: "og:description", content: "Today"s eggs, birds, money and alerts across your poultry farm." },
+      { title: "Farm overview \u00b7 KukuThrive" },
+      { name: "description", content: "Today's eggs, birds, money and alerts across your poultry farm." },
+      { property: "og:title", content: "Farm overview \u00b7 KukuThrive" },
+      { property: "og:description", content: "Today's eggs, birds, money and alerts across your poultry farm." },
     ],
   }),
   component: Page,
